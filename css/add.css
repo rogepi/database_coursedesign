@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans Light";
+  letter-spacing: 0.05em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.home-wrapper {
+  box-shadow: 3px 3px 3px 2px grey;
+  background-color: #fff;
+  width: 800px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 0px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_show ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.title_show li {
+  float: left;
+}
+
+.title_show li a {
+  display: block;
+
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title_show li a:hover:not(.active) {
+  background-color:slategrey;
+  color: white;
+}
+
+.title_show li a.active {
+  color: white;
+  background-color:slategrey ;
+}
+
+.main {
+
+  color: #333;
+}
+
+.table_show {
+  width: auto;
+  height: 480px;
+}
+
+
+/* th {
+  background-color: #4CAF50;
+  color: white;
+} */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: #333;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 60px;
+
+}
+
+.col-25 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+.col-30 {
+  float: left;
+  margin-top: 6px;
+}
+.col-30 input{
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.col-75 {
+  float: left;
+  width: 60%;
+  margin-top: 6px;
+}
+
+.col-50  {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, .col-30,.col-50, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.mbtn {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  /* background-image: linear-gradient(to right, #a6c1ee, #fbc2eb); */
+  border: none;
+  color: #fff;
+  font-size: 120%;
+}
+.mbtn button {
+  width: 100px;
+  height: 40px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: slategray;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mbtn .sbtn {
+  margin-right: 340px;
+}
+
+.mbtn button :link,
+.mbtn button :visited {
+  background-color: slategrey;
+  color: white;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.mbtn :hover,
+.mbtn :active {
+  background-color: #bbb;
+  /* box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24),
+    0 15px 30px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.mbtn button.active {
+  background-color: #bbb;
+}

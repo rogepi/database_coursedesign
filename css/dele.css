@@ -1,0 +1,150 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans Light";
+  letter-spacing: 0.05em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.home-wrapper {
+  box-shadow: 3px 3px 3px 2px grey;
+  background-color: #fff;
+  width: 800px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 0px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_show ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.title_show li {
+  float: left;
+}
+
+.title_show li a {
+  display: block;
+
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title_show li a:hover:not(.active) {
+  background-color:slategrey;
+  color: white;
+}
+
+.title_show li a.active {
+  color: white;
+  background-color:slategrey ;
+}
+
+.main {
+
+  color: #333;
+}
+
+.table_show {
+  width: auto;
+  height: 480px;
+}
+
+
+/* th {
+  background-color: #4CAF50;
+  color: white;
+} */
+/* input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+} */
+
+.sshow {
+  float: left;
+  margin-left: 200px;
+  margin-top: 200px;
+
+}
+
+.sshow select {
+  width: 300px;
+  height: 50px;
+}
+
+
+.mbtn {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  /* background-image: linear-gradient(to right, #a6c1ee, #fbc2eb); */
+  border: none;
+  color: #fff;
+  font-size: 120%;
+}
+.mbtn button {
+  width: 100px;
+  height: 40px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: slategray;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mbtn .sbtn {
+  margin-right: 340px;
+}
+
+.mbtn button :link,
+.mbtn button :visited {
+  background-color: slategrey;
+  color: white;
+  padding: 10px 10px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.mbtn :hover,
+.mbtn :active {
+  background-color: #bbb;
+  /* box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24),
+    0 15px 30px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.mbtn button.active {
+  background-color: #bbb;
+}
+
+.mbtn #sbtn {
+  margin-top: 190px;
+  margin-right: 150px;
+  height: 50px;
+}

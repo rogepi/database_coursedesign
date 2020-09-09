@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans Light";
+  letter-spacing: 0.05em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.container1 {
+  height: 100%;
+  /* background-image: linear-gradient(to right, #fbc2eb, #a6c1ee); */
+  background-color: slategrey;
+}
+
+.login-wrapper {
+  box-shadow: 3px 3px 2px grey;
+  background-color: #fff;
+  width: 250px;
+  height: 300px;
+  border-radius: 15px;
+  padding: 0 50px;
+  position: relative;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.login-wrapper .header {
+  font-size: 22px;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 80px;
+  color: slategrey;
+}
+
+.login-wrapper .form-wrapper .input-item {
+  display: block;
+  width: 95%;
+  margin-bottom: 20px;
+  border: 0;
+  padding: 7px;
+  border-bottom: 1px solid slategrey;
+  font-size: 15px;
+  outline: none;
+}
+
+.login-wrapper .form-wrapper .input-item::placeholder {
+  text-transform: uppercase;
+}
+
+.login-wrapper .form-wrapper .btn {
+  text-align: center;
+  padding: 10px;
+  width: 40%;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* background-image: linear-gradient(to right, #a6c1ee, #fbc2eb); */
+  border-radius: 4px;
+  background-color: slategrey;
+  border: none;
+  color: #fff;
+  font-size: 100%;
+  outline: none;
+}
+
+.login-wrapper .form-wrapper .btn button :link,
+.login-wrapper .form-wrapper .btn button :visited {
+  background-color: slategrey;
+  color: white;
+  padding: 10px 100px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.login-wrapper .form-wrapper .btn button :hover,
+.login-wrapper .form-wrapper .btn button :active {
+  background-color: grey;
+}

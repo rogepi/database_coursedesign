@@ -1,0 +1,138 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans Light";
+  letter-spacing: 0.05em;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+.home-wrapper {
+  box-shadow: 3px 3px 3px 2px grey;
+  background-color: #fff;
+  width: 800px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 0px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title_show ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.title_show li {
+  float: left;
+}
+
+.title_show li a {
+  display: block;
+
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.title_show li a:hover:not(.active) {
+  background-color: slategrey;
+  color: white;
+}
+
+.title_show li a.active {
+  color: white;
+  background-color: slategrey;
+}
+
+.main {
+  color: #333;
+}
+
+.table_show {
+  width: auto;
+  height: 600px;
+}
+
+.table_show table {
+  overflow-y: auto;
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+
+.table_show th {
+  text-align: left;
+  padding: 5px;
+  width: 20%;
+  height: 50px;
+}
+
+.table_show td {
+  text-align: left;
+  padding-left: 10px;
+  width: 20%;
+  height: 120px;
+}
+
+.table_show tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* th {
+  background-color: #4CAF50;
+  color: white;
+} */
+
+.mbtn {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  /* background-image: linear-gradient(to right, #a6c1ee, #fbc2eb); */
+  border: none;
+  color: #fff;
+  font-size: 120%;
+}
+.mbtn button {
+  width: 100px;
+  height: 40px;
+  border-style: none;
+  border-radius: 5px;
+  background-color: slategray;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.mbtn button :link,
+.mbtn button :visited {
+  background-color: slategrey;
+  color: white;
+  padding: 10px 100px;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.mbtn :hover,
+.mbtn :active {
+  background-color: grey;
+  /* box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.24),
+    0 15px 30px 0 rgba(0, 0, 0, 0.19); */
+}

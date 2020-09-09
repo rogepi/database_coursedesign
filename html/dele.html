@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="../css/add.css" />
+    <title>Rogepi Assistant</title>
+  </head>
+  <body>
+    <div class="home-wrapper">
+      <div class="title_show">
+        <ul class="title_show">
+          <li><a href="home.html">Home</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="todo.html">Todo</a></li>
+          <li style="float: right;">
+            <a class="active" href="login.html">Log out</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="table_show">
+          <select name="name" id="name">
+            <option value="计本1班">计本1班</option>
+            <option value="计本2班">计本2班</option>
+            <option value="计本3班">计本3班</option>
+            <option value="计本4班">计本4班</option>
+            <option value="计本5班">计本5班</option>
+            <option value="计本6班">计本6班</option>
+          </select>
+        </div>
+        <div class="mbtn">
+          <button type="menu">
+            Add
+          </button>
+          <button
+            class="active"
+            type="menu"
+            onclick="location.href='contact.php'"
+          >
+            Delete
+          </button>
+          <button type="menu">Edit</button>
+          <button type="menu">Search</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
