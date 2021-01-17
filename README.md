@@ -1,4 +1,4 @@
-# database_coursedesign
+# database_course
 
 大一下数据库课程设计
 
